@@ -12,11 +12,13 @@ header {
     height: 660px;
 }
 .foto {
-    width: 30%;
+    width: 29%;
     height: 660px;
     float: left;
     background-color: rgb(179, 179, 179);
     color: rgb(189, 0, 0);
+    border-right-width: 1%;
+    border-right-style: solid;    
 }
 figure{
     width: 200px;
@@ -83,6 +85,8 @@ nav {
     background-image: url(../img/teclado.jpg);
     background-repeat: no-repeat;
     background-position: 1%;
+    border-right-width: 5%;
+    border-right-style: solid;
 }
 h2 {
     font: 10px;
