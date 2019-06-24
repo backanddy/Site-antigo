@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andressa Neves">
+    <meta name="description" content="Desenvolvimento Web">
+    <title>Andressa Neves</title>
+    <link rel="icon" href="../img/siteicon.png">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="../js/index.js"></script>    
+</head>
+<body>
+    <div class="princ" id="prin">
+        <header>
+            <section class="foto" id="pic">
+                <figure>
+                    <img src="../img/pic.jpg" alt="Andressa Neves" title="Andressa Neves">
+                    <h1>Andressa Neves</h1>
+                    <figcaption>Desenvolvimento Web</figcaption>                
+                </figure>
+                <nav>
+                   <ul class="menu">
+                    <li class="home"><a href="../index.html">Home</a></li>
+                    <li class="sobre"><a href="sobre.html">Sobre</a></li>
+                    <li class="portfolio"><a href="port.html">Portfólio</a>
+                         <ul class="sub1">
+                             <li>Linguagens
+                                 <ul class="sub2">
+                                     <li>HTML e CSS</li>
+                                     <Li>JavaScript e Jquery</Li>
+                                     <li>PHP e MySQL</li>
+                                 </ul>
+                             </li>    
+                             <li>WordPress</li>
+                             <li>Social Mídia</li>
+                             <li>Identidade Visual</li>
+                         </ul>
+                     </li>    
+                    <li class="contato"><a href="contato.html">Contato</a></li>
+                   </ul> 
+                </nav>  
+            </section>
+            <div class="cont" id="cont">
+                <form action="post" class="for" id="for">
+                    <fieldset>
+                        <legend>Orçamento</legend><br>
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="camp" id="nome" maxlength="50" required autofocus><br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="camp" id="email"maxlength="70" required><br>
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" class="camp" id="tel" required></imput><br>
+                        <label for="serv">Tipo de serviço:</label>
+                        <select name="Serviço" class="camp" id="serv" class="camp" required><br>
+                            <option value="Web">Dev Web</option>
+                            <option value="Wordpress">Wordpress</option>
+                            <option value="socmid">Social Mídia</option>
+                            <option value="idvis">Identidade Visual</option>
+                        </select><br>            
+                        <fieldset class="arq">
+                            <legend class="arql">Arquivos ou sites de inspiração (Opcional)</legend><br>
+                            <label for="arq">Arquivos:</label> 
+                            <input type="file" class="camp" id="arq" accept=".jpg,.gif,.mp4,.wmv,.doc,.docx,.pdf,.png,.svg,.ppt,.pptx"></imput><br>
+                            <label for="urlc">Endereço da página:</label>
+                            <input type="url" class="camp" id="urlc"></imput><br>
+                        </fieldset>    
+                            <label for="msg">Menssagem:</label><br>
+                            <textarea name="Menssagem" class="camp" id="msg" cols="30" rows="10"></textarea><br>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </fieldset>
+                    </fieldset>    
+                </form>
+            </div>            
+        </header>                       
+    </div>    
+    <div class="rod" id="rod">   
+        <footer>
+            <section>
+                <h3>Andressa Neves</h3>
+        
+            </section>
+        </footer>
+    </div> 
+</body>
+</html>
