@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Andressa Neves</title>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif;
+      -webkit-backface-visibility: hidden;
+    }
+
+
+    * {
+      box-sizing: inherit;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    svg {
+      margin: auto;
+      display: block;
+    }
+
+    .circle-overlay {
+      font-size: 16px;
+      border-radius: 50%;
+      position: absolute;
+      overflow: hidden;
+      /*it's buggy with the foreignObject background right now*/
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .circle-overlay__inner {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .node-icon--faded {
+      opacity: 0.2;
+    }
+
+    .legend-size circle {
+      fill: rgb(31, 119, 180);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+    <header class="header">
+      <h1>Andressa Neves</h1>
+      <h2>Front-End Developer</h2>
+      <span>São Paulo</span>
+      <img src="" alt="">
+      <span class="linkedin"></span>
+      <span class="twitter"></span>
+      <span class="github"></span>
+    </header>
+
+    <main class="content">
+      <section class="skills">
+        <h2 class="skills">Habilidades técnicas</h2>
+        <svg width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+      </section>
+      <section class="timeline">
+        <article>
+          <span class="anos" id="2008">2008</span>
+          <span class="anos" id="2009">2009</span>
+          <span class="anos" id="2010">2010</span>
+          <span class="anos" id="2011">2011</span>
+          <span class="anos" id="2012">2012</span>
+          <span class="anos" id="2013">2013</span>
+          <span class="anos" id="2014">2014</span>
+          <span class="anos" id="2015">2015</span>
+          <span class="anos" id="2017">2017</span>
+          <span class="anos" id="2019">2019</span>
+          <span class="anos" id="2020">2020</span>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Andressa Neves</h2>
+      <span class="linkedin"></span>
+      <span class="twitter"></span>
+      <span class="github"></span>
+    </footer>
+  </div>
+
+
+  <script src="js/libs/d3.js"></script>
+  <script src="js/libs/d3-legend.min.js"></script>
+  <script src="js/macumba/skills-data.js"></script>
+  <script src="js/macumba/skills.js"></script>
+</body>
+
+</html>
