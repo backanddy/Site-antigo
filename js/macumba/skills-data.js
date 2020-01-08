@@ -1,24 +1,57 @@
 let data = [{
   cat: 'library',
   name: 'HTML',
-  value: 100,
-  icon: 'img/html5-css3.png',
-  desc: `
-				D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for
-				producing dynamic, interactive data visualizations in web browsers.
-				It makes use of the widely implemented SVG, HTML5, and CSS standards.<br>
-				This infographic you are viewing is made with D3.
-			`
+  value: 10,
+  icon: 'img/html5.png',
+  desc:  ''
 },
 {
   cat: 'library',
-  name: 'D3',
+  name: 'CSS',
   value: 20,
-  icon: 'img/d3.svg',
-  desc: `
-				D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for
-				producing dynamic, interactive data visualizations in web browsers.
-				It makes use of the widely implemented SVG, HTML5, and CSS standards.<br>
-				This infographic you are viewing is made with D3.
-			`
-}];
+  icon: 'img/css3.png',
+  desc: ''
+},
+{
+    cat: 'library',
+    name: 'Sass',
+    value: 30,
+    icon: 'img/sass.png',
+    desc: ''
+},
+{
+    cat: 'library',
+    name: 'JavaScript',
+    value: 40,
+    icon: 'img/javascript.png',
+    desc: ''
+},
+{
+    cat: 'library',
+    name: 'NodeJS',
+    value: 50,
+    icon: 'img/nodejs.svg',
+    desc: ''
+},
+{
+    cat: 'library',
+    name: 'D3',
+    value: 60,
+    icon: 'img/d3.svg',
+    desc: ''
+},
+{
+    cat: 'library',
+    name: 'PHP',
+    value: 70,
+    icon: 'img/php.png',
+    desc: ''
+},
+{
+    cat: 'library',
+    name: 'GitHub',
+    value: 80,
+    icon: 'img/github.png',
+    desc: ''
+},
+];
