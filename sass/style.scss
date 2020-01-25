@@ -1,5 +1,4 @@
+@import "layout/reset";
 @import "layout/header";
-
-.header{
-    display: flex;
-}
+@import "layout/footer";
+@import "layout/content";

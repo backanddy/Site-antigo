@@ -1,4 +1,49 @@
-@import "base/index";
+@import "stylus/index";
+
 .header {
-    display: flex;
+  height: 25vh;
+  display: flex;
+  background-color: $azulEscuro;
+  align-items: center;
+  justify-content: space-between;
+
+  .block {
+    h1 {
+      font-size: 3.5em;
+      font-weight: bold;
+      color: $dourado;
+    }
+
+    h1,
+    h2,
+    p {
+      text-align: right;
+      width: 100%;
+    }
+
+    .foto {
+      height: 100px;
+      width: 100px;
+      border: {
+        radius: 100%;
+        width: 4px;
+        style: solid;
+        color: $dourado;
+      };
+    }
+
+    h2,
+    .local {
+      color: $prateado;
+    }
+
+    h2 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .local {
+      font-size: 2em;
+    }
+  }
 }

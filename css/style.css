@@ -1,9 +1,70 @@
-/* line 2, ../sass/layout/_header.scss */
-.header {
-  display: flex;
-}
+body,
+h1,
+h2,
+.local {
+  margin: 0;
+  padding: 0; }
 
-/* line 3, ../sass/style.scss */
+.container {
+  padding: 0 20px; }
+
 .header {
+  height: 25vh;
   display: flex;
-}
+  background-color: #0F1F2F;
+  align-items: center;
+  justify-content: space-between; }
+  .header .block h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #CD912F; }
+  .header .block h1,
+  .header .block h2,
+  .header .block p {
+    text-align: right;
+    width: 100%; }
+  .header .block .foto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #CD912F; }
+  .header .block h2,
+  .header .block .local {
+    color: #CDCDC3; }
+  .header .block h2 {
+    font-size: 2em;
+    font-weight: bold; }
+  .header .block .local {
+    font-size: 2em; }
+
+footer {
+  background-color: #0F1F2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh; }
+  footer h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #CD912F; }
+
+.content {
+  background-color: #0A264B;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .content .skills {
+    font-size: 1.5em;
+    color: #CD912F;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .content .skills h2 {
+      text-align: left; }
+
+/*# sourceMappingURL=style.css.map */

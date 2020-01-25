@@ -58,7 +58,7 @@ let nodes = pack(root).leaves().map(node => {
 });
 simulation.nodes(nodes).on('tick', ticked);
 
-svg.style('background-color', '#eee');
+svg.style('background-color', '##0A264B');
 let node = svg.selectAll('.node')
   .data(nodes)
   .enter().append('g')

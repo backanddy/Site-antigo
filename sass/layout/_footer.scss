@@ -1,0 +1,15 @@
+@import "stylus/index";
+
+footer{
+    background-color: $azulEscuro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        color: $dourado;        
+    }
+}

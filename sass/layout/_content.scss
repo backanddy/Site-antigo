@@ -1,0 +1,22 @@
+@import "stylus/index";
+
+.content{
+    background-color: $azulMedio;
+    padding-top: 30px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .skills {
+        font-size: 1.5em;
+        color: $dourado;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h2 {
+            text-align: left;
+        }
+    }
+}
