@@ -15,7 +15,7 @@ let data = [{
 {
     cat: 'library',
     name: 'Sass',
-    value: 30,
+    value: 20,
     icon: 'img/sass.png',
     desc: ''
 },
@@ -36,14 +36,14 @@ let data = [{
 {
     cat: 'library',
     name: 'D3',
-    value: 60,
+    value: 90,
     icon: 'img/d3.svg',
     desc: ''
 },
 {
     cat: 'library',
     name: 'PHP',
-    value: 70,
+    value: 10,
     icon: 'img/php.png',
     desc: ''
 },
